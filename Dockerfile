@@ -5,4 +5,4 @@ RUN conda install --quiet --yes -c conda-forge fbprophet pandas scikit-learn ten
     conda update --all --quiet --yes -c conda-forge && \
     conda clean -tipsy
 
-RUN jupyter labextension install jupyterlab_bokeh
+#RUN jupyter labextension install jupyterlab_bokeh
