@@ -1,6 +1,6 @@
 FROM jupyter/datascience-notebook:latest
 
-RUN conda install --quiet --yes -c conda-forge fbprophet pandas scikit-learn tensorflow keras plotnine matplotlib ggplot && \
+RUN conda install --quiet --yes -c conda-forge fbprophet pandas scikit-learn tensorflow keras plotnine matplotlib ggplot requests-futures plotly && \
     conda remove --quiet --yes --force qt pyqt && \
     conda clean -tipsy
 
